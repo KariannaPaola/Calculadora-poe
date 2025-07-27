@@ -8,6 +8,7 @@ const botonDividir= document.querySelector("#btnDividir");
 const resultadoInput= document.querySelector("#resultado")
 const campoObligatorioUno= document.querySelector("#CampoObligatorioUno")
 const campoObligatorioDos= document.querySelector("#CampoObligatorioDos")
+const botonLimpiar= document.querySelector("#btnDividir");
 
 
 botonSumar.addEventListener("click", ()=>{
@@ -19,6 +20,8 @@ botonSumar.addEventListener("click", ()=>{
     campoObligatorioDos.textContent="*Campo obligatorio"}
   const resultadoSuma= Number(numeroOne.value) + Number(numeroDos.value)
   resultadoInput.value=resultadoSuma
+  campoObligatorioUno.textContent=""
+  campoObligatorioDos.textContent=""
 })
 
 botonRestar.addEventListener("click", ()=>{

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>CALCULADORA</title>
+  </head>
+  <body>
+    <footer>
+      <h1 id="title">CALCULADORA</h1>
+    </footer>
+    <main>
+      <form action="" id="userForm">
+      <label for="numeroUno" style="font-weight: 600; color: rgb(36, 17, 13);">Ingresa el primer numero de la operacion</label><br>
+      <input type="text" id="numeroUno" name="numeroUno"><br>
+      <p id="CampoObligatorioUno"></p>
+      <label for="numeroDos"style="font-weight: 600; color: rgb(36, 17, 13);"  >Ingresa el segundo numero de la operacion</label><br>
+      <input type="text" id="numeroDos" name="numeroDos"> <br>
+      <p id="CampoObligatorioDos"></p>
+      <label for="resultado"style="font-weight: 600; color: white;" >Resultado</label><br>
+      <input type="text" id="resultado" name="resultado" readonly><br><br>
+        <div>
+          <button type="button" id="btnLimpiar">Limpiar</button>
+          <button type="button" id="btnSumar">Sumar</button>
+          <button type="button" id="btnRestar">Restar</button>
+          <button type="button" id="btnMultiplicar">Multiplicar</button>
+          <button type="button" id="btnDividir">Dividir</button>
+        </div>
+      </form>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>

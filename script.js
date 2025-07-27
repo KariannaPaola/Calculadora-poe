@@ -33,6 +33,8 @@ botonRestar.addEventListener("click", ()=>{
     campoObligatorioDos.textContent="*Campo obligatorio"}
   const resultadoResta= Number(numeroOne.value) - Number(numeroDos.value)
   resultadoInput.value=resultadoResta
+  campoObligatorioUno.textContent=""
+  campoObligatorioDos.textContent=""
 })
 
 botonMultiplicar.addEventListener("click", ()=>{
@@ -44,6 +46,8 @@ botonMultiplicar.addEventListener("click", ()=>{
     campoObligatorioDos.textContent="*Campo obligatorio"}
   const resultadoMultiplicacion= Number(numeroOne.value) * Number(numeroDos.value)
   resultadoInput.value=resultadoMultiplicacion
+  campoObligatorioUno.textContent=""
+  campoObligatorioDos.textContent=""
 })
 
 botonDividir.addEventListener("click", ()=>{
@@ -55,6 +59,8 @@ botonDividir.addEventListener("click", ()=>{
     campoObligatorioDos.textContent="*Campo obligatorio"}
   const resultadoDivision= Number(numeroOne.value) / Number(numeroDos.value)
   resultadoInput.value=resultadoDivision
+  campoObligatorioUno.textContent=""
+  campoObligatorioDos.textContent=""
 })
 
 

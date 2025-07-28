@@ -33,7 +33,7 @@ botonRestar.addEventListener("click", ()=>{
   if(numeroOne.value==""){
     campoObligatorioUno.textContent="*Campo obligatorio"
     numeroOne.style.borderColor="red"
-  }if(numeroDos.value==""){
+  }else if(numeroDos.value==""){
     numeroDos.style.borderColor="red"
     campoObligatorioDos.textContent="*Campo obligatorio"}
   else{
@@ -50,7 +50,7 @@ botonMultiplicar.addEventListener("click", ()=>{
   if(numeroOne.value==""){
     numeroOne.style.borderColor="red"
     campoObligatorioUno.textContent="*Campo obligatorio"
-  }if(numeroDos.value==""){
+  }else if(numeroDos.value==""){
     numeroDos.style.borderColor="red"
     campoObligatorioDos.textContent="*Campo obligatorio"}
   else{
@@ -67,7 +67,7 @@ botonDividir.addEventListener("click", ()=>{
   if(numeroOne.value==""){
     numeroOne.style.borderColor="red"
     campoObligatorioUno.textContent="*Campo obligatorio"
-  }if(numeroDos.value==""){
+  }else if(numeroDos.value==""){
     numeroDos.style.borderColor="red"
     campoObligatorioDos.textContent="*Campo obligatorio"}
   else{

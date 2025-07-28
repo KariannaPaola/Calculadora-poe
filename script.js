@@ -15,7 +15,7 @@ botonSumar.addEventListener("click", ()=>{
   if(numeroOne.value==""){
     numeroOne.style.borderColor="red"
     campoObligatorioUno.textContent="*Campo obligatorio"
-  }if(numeroDos.value==""){
+  }else if(numeroDos.value==""){
     numeroDos.style.borderColor="red"
     campoObligatorioDos.textContent="*Campo obligatorio"}
   else{
@@ -23,6 +23,9 @@ botonSumar.addEventListener("click", ()=>{
   resultadoInput.value=resultadoSuma;
   campoObligatorioUno.textContent=""
   campoObligatorioDos.textContent=""
+  numeroOne.style.borderColor="black"
+  numeroDos.style.borderColor="black"
+
   }
 })
 
@@ -38,6 +41,8 @@ botonRestar.addEventListener("click", ()=>{
   resultadoInput.value=resultadoResta;
   campoObligatorioUno.textContent=""
   campoObligatorioDos.textContent=""
+  numeroOne.style.borderColor="black"
+  numeroDos.style.borderColor="black"
   }
 })
 
@@ -53,6 +58,8 @@ botonMultiplicar.addEventListener("click", ()=>{
   resultadoInput.value=resultadoMultiplicacion;
   campoObligatorioUno.textContent=""
   campoObligatorioDos.textContent=""
+  numeroOne.style.borderColor="black"
+  numeroDos.style.borderColor="black"
   }
 })
 
@@ -68,6 +75,8 @@ botonDividir.addEventListener("click", ()=>{
   resultadoInput.value=resultadoDivision;
   campoObligatorioUno.textContent=""
   campoObligatorioDos.textContent=""
+  numeroOne.style.borderColor="black"
+  numeroDos.style.borderColor="black"
   }
 })
 

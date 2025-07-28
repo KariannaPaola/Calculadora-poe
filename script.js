@@ -18,10 +18,12 @@ botonSumar.addEventListener("click", ()=>{
   }if(numeroDos.value==""){
     numeroDos.style.borderColor="red"
     campoObligatorioDos.textContent="*Campo obligatorio"}
+  else{
   const resultadoSuma= Number(numeroOne.value) + Number(numeroDos.value)
   resultadoInput.value=resultadoSuma;
   campoObligatorioUno.textContent=""
   campoObligatorioDos.textContent=""
+  }
 })
 
 botonRestar.addEventListener("click", ()=>{
@@ -31,10 +33,12 @@ botonRestar.addEventListener("click", ()=>{
   }if(numeroDos.value==""){
     numeroDos.style.borderColor="red"
     campoObligatorioDos.textContent="*Campo obligatorio"}
+  else{
   const resultadoResta= Number(numeroOne.value) - Number(numeroDos.value)
   resultadoInput.value=resultadoResta;
   campoObligatorioUno.textContent=""
   campoObligatorioDos.textContent=""
+  }
 })
 
 botonMultiplicar.addEventListener("click", ()=>{
@@ -44,10 +48,12 @@ botonMultiplicar.addEventListener("click", ()=>{
   }if(numeroDos.value==""){
     numeroDos.style.borderColor="red"
     campoObligatorioDos.textContent="*Campo obligatorio"}
+  else{
   const resultadoMultiplicacion= Number(numeroOne.value) * Number(numeroDos.value)
   resultadoInput.value=resultadoMultiplicacion;
   campoObligatorioUno.textContent=""
   campoObligatorioDos.textContent=""
+  }
 })
 
 botonDividir.addEventListener("click", ()=>{
@@ -57,10 +63,12 @@ botonDividir.addEventListener("click", ()=>{
   }if(numeroDos.value==""){
     numeroDos.style.borderColor="red"
     campoObligatorioDos.textContent="*Campo obligatorio"}
+  else{
   const resultadoDivision= Number(numeroOne.value) / Number(numeroDos.value)
   resultadoInput.value=resultadoDivision;
   campoObligatorioUno.textContent=""
   campoObligatorioDos.textContent=""
+  }
 })
 
 
